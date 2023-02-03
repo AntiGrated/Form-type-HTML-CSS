@@ -1,0 +1,84 @@
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: black;
+  height: 65px;
+  color: white;
+  text-align: center;
+  margin: 1em auto;
+  max-width: 70%;
+  font-size: 40px;
+  padding-top: 1%;
+}
+
+p[name="description"] {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin: 1em auto;
+}
+fieldset {
+  background-color: rgba(4, 31, 88, 0.5);
+  border: none;
+  border-radius: 14px;
+}
+
+body {
+  background-color: #1b1b32;
+}
+label {
+  color: white;
+  font-size: 22px;
+  margin-left: 20;
+}
+input, select {
+  display: block;
+  width: 90%;
+  border-radius: 6px;
+  min-height: 35px;
+  max-height: 45px;
+  margin: 7 auto;
+}
+p[name="time"], p[name="checkbox"] {
+  color: white;
+  font-size: 22px;
+  margin-left: 20;
+  display: block;
+}
+
+input[name="oras"] {
+  width: 18px;
+  vertical-align: middle;
+  display: inline;
+}
+label[for="times"] {
+  margin-left: 25;
+  display: block;
+}
+label[for="checkbox"] {
+  font-size: 19px;
+  display: block;
+}
+input[id="checkbox"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: inline;
+  font-size: 15px;
+}
+label[name="comments"] {
+  font-size: 25
+}
+textarea {
+  margin: 7 auto;
+  display: block
+}
+input[type="submit"] {
+  max-width: 50%
+}

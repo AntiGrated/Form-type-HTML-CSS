@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Build a Survey Form</title>
+  </head>
+
+<body>
+<h1 id="title">
+  Landon's Survey Form
+  </h1>
+<p name="description" id="description">
+  Please fill out this form
+</p>
+<form id="survey-form" method="post">
+  <fieldset>
+    <label for="name" id="name-label">
+      Full name <input id="name" required type="text" placeholder="Enter your name">
+    </label>
+<label for="email" id="email-label">Email<input type="email" id="email" required placeholder="Enter your email">
+</label>
+<label for="number" id="number-label">
+  Age
+  <input id="number" required type="number" min="13" max="120" placeholder="Enter your age">
+</label>
+<label for="dropdown">Which device do you prefer?
+<select id="dropdown">
+<option>Desktop</option>
+<option>Laptop</option>
+<option>Mobile</option>
+<option>Tablet</option>
+<option>Other</option>
+  </select>
+  </label>
+  <p name="time">Are you a Web Developer?</p>
+    <label for="times"><input type="radio" name="oras" class="inline" value="1">
+    Yes
+      </label>
+    <label for="times"><input type="radio" name="oras" class="inline" value="2">
+    No
+      </label>
+      <p name="checkbox" class="block" for="checkbox">What kind(s) of a Web Dev are you?
+        </p>
+        <label for="checkbox">
+          <input id="checkbox" type="checkbox" value="front-end">
+          Front End
+          </label>
+        <label for="checkbox">
+          <input id="checkbox" type="checkbox" value="back-end">
+          Back End
+        </label>
+        <label for="checkbox" value="full-stack">
+        <input id="checkbox" type="checkbox" value="full-stack">
+        Full Stack
+        </label>
+        <label name="comments">Any comments or suggestions?
+          </label>
+          <textarea rows="3" cols="30" placeholder="write your comments or suggestions here...."></textarea>
+      <input type="submit" id="submit" value="submit">
+        Submit
+    </fieldset>
+  </body>
