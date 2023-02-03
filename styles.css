@@ -24,13 +24,14 @@ p[name="description"] {
   margin: 1em auto;
 }
 fieldset {
-  background-color: rgba(4, 31, 88, 0.5);
+  background-color: rgba(49, 11, 189, 0.5);
   border: none;
   border-radius: 14px;
 }
 
 body {
   background-color: #1b1b32;
+  background-image: url("bg2.png");
 }
 label {
   color: white;
@@ -77,8 +78,10 @@ label[name="comments"] {
 }
 textarea {
   margin: 7 auto;
-  display: block
+  display: block;
+  margin-bottom: 15px;
 }
 input[type="submit"] {
-  max-width: 50%
+  max-width: 50%;
+  margin: auto;
 }
